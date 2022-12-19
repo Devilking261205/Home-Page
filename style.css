@@ -1,0 +1,40 @@
+body{
+	background-image:url(IMG/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	color: blue;
+	cursor: pointer;
+}
+h1{
+	margin-top: 160px;
+	text-align: center;
+	color: darkcyan;
+	font-size: 45px;
+}
+h2{
+	margin-left: 320px;
+	font-size: 35px;
+	color: darkcyan;
+}
+h2 sup{
+	font-size: 10px;
+	color: black;
+}
+.kkr{
+	text-align: center;
+	font-size: 26px;
+}
+.i-con{
+	margin-left: 510px;
+	padding: 10px 0;
+}
+font img{
+	height: 50px;
+}
+
