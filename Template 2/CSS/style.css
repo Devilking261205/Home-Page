@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+#first{
+    width: 100%;
+    background: rgb(230, 228, 228);
+    overflow: hidden;
+    padding-bottom: 90px;
+}
+.f-div{
+    width: 1140px;
+    margin: auto;
+}
+.text{
+    float: left;
+}
+.image{
+    width: 540px;
+    float: right;
+    margin-right: ;
+}
+.image img{
+    width: 620px;
+    height: 450px;
+}
+.text{
+    width: 500px;
+    padding: 80px 30px;
+}
+.text h1{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 55px;
+    color: orangered;
+}
+.text p{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+.ta{
+    padding: 30px 0px;
+}
+.ta a{
+    color: black;
+}
+.f-btn{
+    background-color: rgb(254, 69, 2); 
+    float: left;
+    padding: 20px 50px;
+    border-radius: 20px;
+    border: 2px solid rgb(6, 228, 252);
+    text-align: left;
+    margin-left: -530px;
+    margin-top: 400px;
+
+}
+.f-btn:hover{
+    background-color: rgb(247, 7, 7); 
+    box-shadow: 2px 2px 10px black;
+}
+.f-btn:hover a{
+    color: black;
+}
+.f-btn a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+            /*================================================
+                         End Of First Section 
+            ==================================================*/
+#secend{
+    width: 100%;
+    overflow: hidden;
+    /* padding-bottom: 90px; */
+}
+.f-div-2{
+    width: 1140px;
+    margin: auto;
+}
+.image-2{
+    width: 450px;
+    float: left;
+    padding: 30px 0px;
+    margin-left: 100px;
+}
+.image-2 img{
+    width: 420px;
+    height: 540px;
+}
+.text-2{
+    width: 500px;
+    padding: 20px 0px;
+    float: left;
+}
+.text-2 h1{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 55px;
+    color: orangered;
+    padding: 15px 0;
+}
+.text-2 p{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+.lorem{
+    font-weight: bold;
+    padding: 20px 0px;
+}
+.ta-2{
+    padding: 10px 0px;
+}
+.ta-2 a{
+    color: black;
+}
+.f-btn-2{
+    background-color: rgb(254, 69, 2); 
+    float: left;
+    padding: 20px 60px;
+    border-radius: 20px;
+    text-align: left;
+    margin-top: 10px;
+    border: 2px solid rgb(6, 228, 252);
+}
+.f-btn-2:hover{
+    background-color: rgb(247, 7, 7); 
+    box-shadow: 2px 2px 10px black;
+    color: black;
+}
+.f-btn-2 a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.f-btn-2:hover a{
+    color: black;
+}
