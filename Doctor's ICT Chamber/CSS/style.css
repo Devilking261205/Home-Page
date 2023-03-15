@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+#Menu{
+    width: 100%;
+    background: black;
+    /* height: 75px; */
+    display: table;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+.text-div{
+    width: 300px;
+    margin-top: 20px;
+    float: left;
+}
+.text-div h2{
+    font-size: 30px;
+    color: yellow;
+}
+.menu{
+    width: 840px;
+    float: left;
+}
+.m-items{
+    list-style: none;
+    float: right;
+}
+.m-items li{
+    float: left;
+    position: relative;
+}
+.m-items li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 520;
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    padding: 30px 25px;
+    letter-spacing: 1px;
+}
+.m-items li a:hover{
+    color: red;
+}
+.subMenu{
+    position: absolute;
+    list-style: none;
+    width: 330px;
+    top: 79px;
+    border: 2px solid rgb(253, 252, 255);
+    border-top: none;
+    background: transparent;
+    transform: scaleY(0);
+    transform-origin: top;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+.subMenu li{
+    float: none;
+}
+.subMenu li a{
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    padding: 15px 35px;
+}
+.subMenu li a::before{
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 0px;
+    height: 3px;
+    background: red;
+    margin-right: 5px;
+    margin-top: -3px;
+    transform-origin: left;
+    transform: scaleX(0);
+    visibility: hidden;
+    transition: 0.5s;
+}
+.subMenu li a:hover::before{
+    width: 15px;
+    transform: scaleX(1);
+    visibility: visible;
+
+}
+.m-items li:nth-child(2):hover .subMenu{
+    transform: scaleY(1);
+    visibility: visible;
+}
+            /* ---------- */
+            /* END OF MENU */
+            /* ---------- */
+
+#secend{
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.381), rgba(1, 1, 1, 0)), url(../IMG/home-1.webp);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    background-attachment: fixed;
+    margin-top: 1px;
+}
+.text{
+    text-align: left;
+    padding: 150px 30px;
+    margin: 1.5px 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 62px;
+}
+.text h1{
+    color: yellow;
+    text-transform: uppercase;
+    font-size: 52px;
+}
+.text p{
+    color: white;
+    text-transform: capitalize;
+    font-size: 39px;
+    padding-top: 25px;
+}
+            /* --------------------- */
+            /* End of Secend section */
+            /* --------------------- */
+
+#cours{
+    width: 100%;
+    height: 350px;
+    background: rgb(246, 246, 200);
+}
+
+.crs{
+    width: 1140px;
+    margin: auto;
+    padding: 10px;
+}
+.crs h1{
+    color: blueviolet;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+}
+.div-s{
+    float: left;
+    margin-left: 25px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.div-s img{
+    width: 250px;
+    height: 200px;
+}
+.div-s p{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+
+        /* -------------- */
+        /* End of Courses */
+        /* -------------- */
+#Cntn{
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.413), rgba(18, 14, 14, 0.194)), url(../IMG/Free.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.text{
+    width: 1140px;
+    margin: auto;
+}
+.text-1 p{
+    color: yellow;
+    font-size: 45px;
+    text-align: center;
+    padding: 30px 80px;
+}
+        /* -------------- */
+        /* End Of Content */
+        /* -------------- */
+#BC{
+    width: 100%;
+    height: 370px;
+    background: rgb(246, 246, 200);
+}
+        
+.bc-i{
+    width: 1140px;
+    margin: auto;
+    padding: 10px;
+}
+.bc-i h1{
+    color: blueviolet;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+}
+.div-bc{
+    float: left;
+    margin-left: 25px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.div-bc img{
+    width: 350px;
+    height: 200px;
+}
+.div-bc p{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 10px;
+}
+#Cnt-us{
+    width: 100%;
+    background-color: rgb(89, 90, 89);
+    color: white;
+}
+.c-f{
+    width: 1140px;
+    margin: auto;
+}
+.cont-t{
+    text-align: center;
+    margin
+}
+.cont-t h1{
+    font-size: 30px;
+    padding-top: 25px;
+}
+.cont-t p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.form {
+    margin-left: 250px;
+    padding-top: 20px;
+}
+.form label{
+    font-size: 20px;
+    padding: 10px;
+}
+.form input{
+    padding: 10px;
+}
+.form p{
+    padding: 15px;
+    margin-left: 146px;
+    font-size: 18px;
+
+}
+.form .btn{
+    background: rgb(234, 47, 47);
+    color: yellow;
+    font-size: 15px;
+    border: none;
+    margin-left: 10px;
+    padding: 10px 35px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+            /* ----------- */
+            /* End of form */
+            /* ----------- */
+
+#end{
+    width: 100%;
+    background: black;
+    padding: 20px 0px;
+}
+#end p{
+    color: wheat;
+    text-align: center;
+    font-size: 20px;
+}
